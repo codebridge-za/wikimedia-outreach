@@ -17,9 +17,15 @@ body {
 
 .heading {
   line-height: 1;
-  font-size: 72px;
+  font-size: 48px;
   margin-bottom: 0;
   font-weight: bold;
+}
+
+@media screen and (min-width: 550px) {
+  .heading {
+    font-size: 72px;
+  }
 }
 
 .sub-heading {
